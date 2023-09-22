@@ -187,7 +187,7 @@ $('#navbar,#scroll-down').on("click", function(e) {
                 }
                 $('html,body').animate({
                     scrollTop: target.offset().top - gap +80
-                }, 900);
+                }, 150);
             }
 
             if ($('.navbar-toggle').css('display') != 'none') {
@@ -238,34 +238,6 @@ $(document).ready(function() {
         }
     });
 
-});
-
-
-
-/*************************
-        NiceScroll
-*************************/
-$("html").niceScroll({
-    scrollspeed: 8,
-    mousescrollstep: 50,
-    cursorwidth: 7,
-    cursorborder: 0,
-    cursorcolor: '#2f3742',
-    autohidemode: true,
-    zindex: 999999999,
-    horizrailenabled: false,
-    cursorborderradius: 0
-});
-$(".navbar").niceScroll({
-    scrollspeed: 150,
-    mousescrollstep: 38,
-    cursorwidth: 5,
-    cursorborder: 0,
-    cursorcolor: '#2f3742',
-    autohidemode: true,
-    zindex: 999999999,
-    horizrailenabled: false,
-    cursorborderradius: 0,
 });
 
 /*************************
